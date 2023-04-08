@@ -1,0 +1,17 @@
+{
+  "name": "ignite-nodejs-desafio1",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "csv": "node streams/fake-upload-csv.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.3.6"
+  }
+}
